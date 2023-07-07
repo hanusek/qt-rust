@@ -1,5 +1,6 @@
 import QtQuick.Controls 2.12
 import QtQuick.Window 2.12
+import QtQuick 2.12
 
 // This must match the qml_uri and qml_version
 // specified with the #[cxx_qt::qobject] macro in Rust.

@@ -1,5 +1,7 @@
 use cxx_qt_lib::{QGuiApplication, QQmlApplicationEngine, QUrl};
 
+mod cxxqt_object; // We need to include cxxqt_object.rs like a normal Rust file
+
 fn main() {
     // Create the application and engine
     let mut app = QGuiApplication::new();
