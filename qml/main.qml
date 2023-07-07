@@ -25,6 +25,7 @@ Window {
 
         Button {
             text: "Say Hello!"
+            palette.buttonText: "red"
             onClicked: hello.sayHello()
         }
     }
